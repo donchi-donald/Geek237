@@ -1,0 +1,30 @@
+{
+  "name": "de.geek237",
+  "displayName": "Geek237",
+  "version": "1.0.0",
+  "description": "Geek237 made in cameroon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Geek 237",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova-android": "^9.1.0",
+    "cordova-browser": "^6.0.0",
+    "cordova-plugin-whitelist": "^1.3.4",
+    "ubuntu": "^2.0.0"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {}
+    },
+    "platforms": [
+      "android",
+      "browser"
+    ]
+  }
+}
